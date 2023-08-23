@@ -36,6 +36,7 @@ class Produto {
     
                 let imgEdit = document.createElement('img');
                 imgEdit.src = 'img/editar.png';
+                imgEdit.setAttribute("onclick", "produto.preparaEditacao("+ JSON.stringify(this.arrayProdutos[i]) +")");
     
                 let imgDelete = document.createElement('img');
                 imgDelete.src = 'img/excluir.png';
@@ -53,6 +54,13 @@ class Produto {
             this.id++;
             
             
+        }
+
+        preparaEditacao(dados) {
+            document.getElementById('produto').value = dados.produto;
+            document.getElementById('valor').value = dados.preco;
+
+            document.getElementById('btm1').innerText = 'atualizar';
         }
     
         lerDados() {
@@ -90,6 +98,9 @@ class Produto {
 
         deletar(id) {
 
+            if(confirm('deseja realmente deletar o produto do Id ' + id)) {
+
+            }
             let tbody = document.getElementById('tbody');
 
             for(let i = 0; i < this.arrayProdutos.length; i++) {
@@ -99,6 +110,7 @@ class Produto {
                 }
             }
             console.log(this.arrayProdutos);
+        
         }
     }
     var produto = new Produto();
