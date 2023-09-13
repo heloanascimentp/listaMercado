@@ -20,6 +20,7 @@ O trabalho foi feito apartir de videos do canal Programador Espartano, que conti
 ## introdução 
 Essa é uma página  HTML, que  representa uma loja on-line e apresent uma lista de produtos disponíveis. Ela possui um cabeçalho (header) com o título "minha loja 1.0" e um corpo (body) com diversas seções, como uma seção de título  que apresenta a lista de produtos do mercado. Além disso, há um formulário que permite ao usuário inserir informações sobre um novo produto, tais como nome e preço, e dois botões para salvar ou cancelar a ação. Também há uma tabela com uma lista dos produtos disponíveis , exibindo informações como o ID, nome e valor do produto, além de um botão para editar ou excluir a informação do produto.
 
+
 ## funcionalidade 
 
 Esse código apresenta uma interface web que permite a gestão de uma lista de produtos, onde é possível adicionar, editar e excluir os produtos da lista. O usuário pode inserir informações sobre um novo produto, como nome e preço, e também pode visualizar a lista dos produtos cadastrados, que exibe informações como o ID, nome e valor do produto, além de botões para editar ou excluir cada produto. O código utiliza JavaScript, para implementar a lógica de interação da interface com a base de dados dos produtos.
