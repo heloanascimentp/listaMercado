@@ -29,7 +29,7 @@ HTML
 CSS  
 IMG  
 ## fontes consultadas
-* [video](video-1.mp4) - video utilizado para fazer o trabalho
+* [video](video-1.mp4) - video utilizado para fazer o trabalho do Leo
 ## autores
 Heloá   
 
