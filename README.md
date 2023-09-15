@@ -10,7 +10,7 @@
 [autores](#autores)  
 
 # projeto - aprendendo a escrever o REDME 
-![image info](img/listagif.mp4)
+![image info](img/listagif.gif)
 
 ## Descrição 
 Esse trabalho consiste em criar uma lista de uma loja virtual, em que a pessoa pode informa o produto que ela ta vendendo e pode informar o preço tambem. Usei Javascript para informar caso a pessoas não informar o produto ou o preço. 
